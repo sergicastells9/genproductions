@@ -13,3 +13,9 @@ do
     sed -i "s/_AMASS_/${a}/" "${i}_GeV/hToaaTo4gamma_ma_${i}_GeV_MLM_4f_max1j_customizecards.dat"
     sed -i "s/AMASS/${i}/" "${i}_GeV/hToaaTo4gamma_ma_${i}_GeV_MLM_4f_max1j_proc_card.dat"
 done
+
+mkdir "templates"
+mv hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_customizecards.dat templates/
+mv hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_extramodels.dat templates/
+mv hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_proc_card.dat templates/
+mv hToaaTo4gamma_ma_AMASS_GeV_MLM_4f_max1j_run_card.dat templates/

@@ -4,4 +4,4 @@ do
 
     echo "\n\n"
     sleep 2
-donea
+done
